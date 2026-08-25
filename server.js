@@ -29,6 +29,7 @@ db.exec(`
     model TEXT,
     capacity TEXT,
     lift_height TEXT,
+    use_case TEXT,
     message TEXT,
     status TEXT NOT NULL DEFAULT 'new',
     source TEXT NOT NULL DEFAULT 'website',
@@ -36,14 +37,19 @@ db.exec(`
   );
 `);
 
+const quoteColumns = db.prepare("PRAGMA table_info(quote_requests)").all().map((column) => column.name);
+if (!quoteColumns.includes("use_case")) {
+  db.exec("ALTER TABLE quote_requests ADD COLUMN use_case TEXT");
+}
+
 const insertQuote = db.prepare(`
   INSERT INTO quote_requests
-  (name, company, phone, email, city, model, capacity, lift_height, message)
-  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+  (name, company, phone, email, city, model, capacity, lift_height, use_case, message)
+  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 `);
 
 const listQuotes = db.prepare(`
-  SELECT id, name, company, phone, email, city, model, capacity, lift_height, message, status, created_at
+  SELECT id, name, company, phone, email, city, model, capacity, lift_height, use_case, message, status, created_at
   FROM quote_requests
   ORDER BY created_at DESC
   LIMIT ?
@@ -78,6 +84,7 @@ function validateQuote(body) {
     model: clean(body.model, 120),
     capacity: clean(body.capacity, 80),
     liftHeight: clean(body.height || body.liftHeight, 80),
+    useCase: clean(body.usage || body.useCase, 240),
     message: clean(body.message, 1200)
   };
 
@@ -105,6 +112,7 @@ app.post("/api/quotes", quoteLimiter, (req, res) => {
     quote.model,
     quote.capacity,
     quote.liftHeight,
+    quote.useCase,
     quote.message
   );
 

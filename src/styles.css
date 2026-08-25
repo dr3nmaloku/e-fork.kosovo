@@ -50,9 +50,17 @@ h3 { font-size: 24px; }
 .section-head { max-width: 880px; margin-bottom: 36px; }
 .section-head p { color: var(--muted); }
 .product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.filter-bar { display: flex; flex-wrap: wrap; gap: 10px; margin: -8px 0 28px; }
+.filter-chip { min-height: 38px; padding: 0 13px; border: 1px solid var(--line); border-radius: 999px; background: var(--white); color: var(--ink); font-weight: 750; cursor: pointer; }
+.filter-chip.is-active { background: var(--navy); color: var(--white); border-color: var(--navy); }
+.filter-divider { width: 1px; min-height: 36px; background: var(--line); }
 .product-card { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--white); box-shadow: 0 14px 40px rgba(7,17,31,.06); }
 .product-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: var(--paper); }
+.product-image-placeholder { display: grid; place-items: center; align-content: center; gap: 8px; width: 100%; aspect-ratio: 4 / 3; padding: 20px; background: linear-gradient(135deg, #eef3f4, #dfe8e6); color: var(--navy); text-align: center; }
+.product-image-placeholder span { font-weight: 900; font-size: 24px; }
+.product-image-placeholder small { color: var(--muted); font-weight: 700; }
 .product-body { padding: 22px; }
+.manufacturer { margin: 10px 0 0; color: var(--green-dark); font-weight: 800; font-size: 13px; }
 dl { display: grid; gap: 10px; margin: 18px 0; }
 dl div { display: flex; justify-content: space-between; gap: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
 dt { color: var(--muted); }
@@ -76,7 +84,11 @@ dd { margin: 0; text-align: right; font-weight: 750; }
 table { width: 100%; border-collapse: collapse; min-width: 720px; }
 th, td { padding: 16px 18px; border-bottom: 1px solid var(--line); text-align: left; }
 th { background: var(--navy); color: var(--white); }
-.about { background: linear-gradient(rgba(7,17,31,.86), rgba(7,17,31,.86)), url("https://www.aaaforklifts.com/cdn/shop/articles/thumbnail_6ccfee68-a7ed-4c79-890b-d9a5d677661e.jpg?v=1722084122&width=2048") center/cover; color: var(--white); }
+.supplier { background: var(--paper); }
+.supplier-card { max-width: 980px; border: 1px solid var(--line); border-radius: var(--radius); padding: 34px; background: var(--white); }
+.supplier-card p { max-width: 760px; color: var(--muted); font-size: 18px; line-height: 1.65; }
+.supplier-card .btn-secondary { margin-top: 8px; background: var(--navy); }
+.about { background: linear-gradient(rgba(7,17,31,.86), rgba(7,17,31,.86)), url("https://s.alicdn.com/@sc04/kf/Hcaa9704660b34a5cbf77774c5de983a1H.jpg_960x960q80.jpg") center/cover; color: var(--white); }
 .about-card { max-width: 850px; background: rgba(7,17,31,.78); }
 .quote { align-items: start; background: var(--navy); color: var(--white); }
 .quote-form { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; padding: 22px; border-radius: var(--radius); background: var(--white); }

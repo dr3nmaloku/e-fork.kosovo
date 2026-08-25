@@ -2,12 +2,12 @@ import { resolve } from "node:path";
 import { defineConfig } from "vite";
 
 const productPages = [
-  "electric-forklift-1-5t",
-  "electric-forklift-2-0t",
-  "electric-forklift-2-5t",
-  "electric-forklift-3-0t",
-  "electric-forklift-3-5t",
-  "electric-forklift-5-0t"
+  "linya-cpd-40-3t-lithium",
+  "linya-best-value-electric-forklift",
+  "linya-fast-delivery-lithium-3t-5t",
+  "linya-china-factory-sale-15t-4t",
+  "linya-fast-delivery-60v-mini",
+  "linya-professional-manufacturer-1t-4t"
 ];
 
 export default defineConfig({

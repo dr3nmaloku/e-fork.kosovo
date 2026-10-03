@@ -19,310 +19,294 @@ const products = [
  slug: "ef-cpd40-3t-lithium",
  model: "EF-CPD40",
  manufacturer: "Furnitor",
- name: "3 Ton Electric Forklift Lithium Battery 4.5m Triplex High Mast",
+ name: "Pirunar elektrik 3 ton me bateri lithium dhe mast 4.5 m",
  capacity: "1 Ton, 1.5 Ton, 2 Ton, 2.5 Ton, 3 Ton, 3.5 Ton, 4 Ton, 4.5 Ton, 5 Ton",
  height: "1500 mm - 6000 mm",
- battery: "Lithium-Ion Battery",
+ battery: "Bateri Lithium-Ion",
  batteryFilter: "Lithium",
- drive: "Fwd",
- tyres: "Solid Tire, Pneumatic Tire",
+ drive: "Lëvizje përpara",
+ tyres: "Goma solide, goma pneumatike",
  images: supplierImages.cpd40,
-  description: "Pirunar elektrik kundërpeshë për warehouse material handling, i listuar me bateri Lithium-Ion, side shifter hidraulik dhe opsione ngritjeje deri në 6000 mm.",
+  description: "Pirunar elektrik kundërpeshë për punë në magazina, me bateri Lithium-Ion, side shifter hidraulik dhe opsione ngritjeje deri në 6000 mm.",
  specs: {
- "Condition": "New",
- "Model Number": "EF-CPD40",
-  "Rated Loading Capacity": "1 Ton, 1.5 Ton, 2 Ton, 2.5 Ton, 3 Ton, 3.5 Ton, 4 Ton, 4.5 Ton, 5 Ton",
- "Max. Lifting Height": "1500 mm, 2000 mm, 2500 mm, 3000 mm, 3500 mm, 4000 mm, 4500 mm, 5000 mm, 5500 mm, 6000 mm",
- "Fork Specifications (L*W*H)": "1220*125*50",
- "Fork Length": "1220 mm",
- "Forklift Battery Type": "Lithium-Ion Battery",
- "Battery voltage (V/AH)": "60v",
- "Side Shifter": "Hydraulic Side Shifter",
- "Drive Type": "Fwd",
- "Forklift Tyre": "Solid Tire, Pneumatic Tire",
- "Load centre distance": "300 mm, 400 mm, 500 mm, 600 mm, 800 mm",
- "Operating Mode": "Seated Operation",
- "Forklift Turning radius": "1950 mm, 2170 mm",
- "Forklift Wheelbase": "1335 mm, 1487 mm",
- "Mast Tilt Angle": "6-12 degrees",
- "Mast Type": "Three-Stage Mast",
- "Self-weight": "2800 kg",
- "Travel speed (laden)": "17 km/h",
- "Travel speed (unladen)": "30 km/h",
- "Power type": "Electric Power/Diesel",
- "Mast": "2 Stage/3 Stage",
- "Application": "Lifting Handling"
+ "Gjendja": "I ri",
+ "Numri i modelit": "EF-CPD40",
+  "Kapaciteti nominal i ngarkesës": "1 Ton, 1.5 Ton, 2 Ton, 2.5 Ton, 3 Ton, 3.5 Ton, 4 Ton, 4.5 Ton, 5 Ton",
+ "Lartësia maksimale e ngritjes": "1500 mm, 2000 mm, 2500 mm, 3000 mm, 3500 mm, 4000 mm, 4500 mm, 5000 mm, 5500 mm, 6000 mm",
+ "Specifikat e pirunëve (Gjatësi*Gjerësi*Lartësi)": "1220*125*50",
+ "Gjatësia e pirunëve": "1220 mm",
+ "Tipi i baterisë": "Bateri Lithium-Ion",
+ "Voltazhi i baterisë (V/AH)": "60v",
+ "Side shifter": "Side shifter hidraulik",
+ "Tipi i lëvizjes": "Lëvizje përpara",
+ "Gomat": "Goma solide, goma pneumatike",
+ "Distanca e qendrës së ngarkesës": "300 mm, 400 mm, 500 mm, 600 mm, 800 mm",
+ "Mënyra e operimit": "Operim ulur",
+ "Rrezja e kthimit": "1950 mm, 2170 mm",
+ "Distanca mes boshteve": "1335 mm, 1487 mm",
+ "Këndi i pjerrësisë së mastit": "6-12 gradë",
+ "Tipi i mastit": "Masti me tri faza",
+ "Pesha vetjake": "2800 kg",
+ "Shpejtësia e lëvizjes me ngarkesë": "17 km/h",
+ "Shpejtësia e lëvizjes pa ngarkesë": "30 km/h",
+ "Tipi i energjisë": "Energji elektrike/Diesel",
+ "Masti": "2 faza/3 faza",
+ "Përdorimi": "Ngritje dhe trajtim materiali"
  }
  },
  {
  slug: "best-value-electric-forklift",
- model: "Best Value Electric Forklift",
+ model: "Pirunar elektrik lithium 1T-3T",
  manufacturer: "Furnitor",
- name: "Best Value Electric Forklift 1 Ton 1.5 Ton 2 Ton 3 Ton CE MSDS Lithium Battery",
+ name: "Pirunar elektrik me bateri lithium 1 ton, 1.5 ton, 2 ton, 3 ton",
  capacity: "1 Ton, 1.5 Ton, 2 Ton, 3 Ton",
  height: "Na kontaktoni për specifikat",
- battery: "Lithium Battery",
+ battery: "Bateri lithium",
  batteryFilter: "Lithium",
- drive: "Four Wheel Drive listed",
- tyres: "Rough Terrain listed",
+ drive: "Lëvizje me katër rrota, sipas katalogut",
+ tyres: "Terren i vështirë, sipas katalogut",
  images: supplierImages.haa,
-  description: "Model i rekomanduar në katalogun e furnitorit për kapacitete 1T deri 3T, me bateri lithium dhe aplikime four wheel drive/rough terrain të listuara."
+  description: "Model elektrik me bateri lithium për kapacitete 1T deri 3T, me konfigurime të listuara për terren të vështirë dhe lëvizje me katër rrota."
  },
  {
  slug: "fast-delivery-lithium-3t-5t",
- model: "Fast Delivery Lithium Forklift",
+ model: "Pirunar me bateri lithium",
  manufacturer: "Furnitor",
- name: "Fast Delivery Lithium Battery 3 Ton 5 Ton Forklift Electric Forklift",
+ name: "Pirunar elektrik me bateri lithium 3 ton dhe 5 ton",
  capacity: "3 Ton, 5 Ton",
  height: "Na kontaktoni për specifikat",
- battery: "Lithium Battery",
+ battery: "Bateri lithium",
  batteryFilter: "Lithium",
- drive: "Electric Forklift / Hydraulic Fork Lift Truck listed",
+ drive: "Pirunar elektrik / kamion pirunar hidraulik sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: supplierImages.h85,
-  description: "Model lithium battery për kapacitete 3T dhe 5T, i shfaqur në rekomandimet e katalogut të produkteve."
+  description: "Model me bateri lithium për kapacitete 3T dhe 5T, i shfaqur në katalogun e produkteve."
  },
  {
  slug: "small-electric-forklift-15t-4t",
- model: "Factory Sale Small Electric",
+ model: "Pirunar i vogël elektrik",
  manufacturer: "Furnitor",
- name: "Small Electric Forklift 1.5t Forklift 2Ton 3Ton 4Ton Small Electric Forklift",
+ name: "Pirunar i vogël elektrik 1.5 ton, 2 ton, 3 ton, 4 ton",
  capacity: "1.5 Ton, 2 Ton, 3 Ton, 4 Ton",
  height: "Na kontaktoni për specifikat",
  battery: "Na kontaktoni për specifikat",
- batteryFilter: "Other",
- drive: "Electric Forklift listed",
+ batteryFilter: "Tjetër",
+ drive: "Pirunar elektrik sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: supplierImages.h063,
   description: "Pirunar i vogël elektrik nga katalogu i produkteve për kapacitete 1.5T deri 4T, i pozicionuar për përdorim të lehtë dhe mirëmbajtje të thjeshtë."
  },
  {
  slug: "fast-delivery-60v-mini",
- model: "Fast Delivery 60V Mini Electric",
+ model: "Mini pirunar elektrik 60V",
  manufacturer: "Furnitor",
- name: "Fast Delivery 60v 3 Ton 1.5 Ton 2 Ton 3.5 Ton Mini Electric Forklifts",
+ name: "Mini pirunar elektrik 60V 1.5 ton, 2 ton, 3 ton, 3.5 ton",
  capacity: "1.5 Ton, 2 Ton, 3 Ton, 3.5 Ton",
  height: "Na kontaktoni për specifikat",
- battery: "60V Battery Forklift",
- batteryFilter: "Other",
- drive: "Battery Electric",
+ battery: "Bateri 60V",
+ batteryFilter: "Tjetër",
+ drive: "Elektrik me bateri",
  tyres: "Na kontaktoni për specifikat",
  images: supplierImages.h350,
   description: "Mini pirunar elektrik me sistem 60V dhe kapacitete të ndryshme, i listuar në katalogun e produkteve."
  },
  {
  slug: "professional-electric-forklift-1t-4t",
- model: "Professional Portable Electric",
+ model: "Pirunar elektrik portativ",
  manufacturer: "Furnitor",
- name: "Professional Electric Forklift 1 Ton 2 Ton 3 Ton 3.5 Ton 4 Ton",
+ name: "Pirunar elektrik profesional 1 ton, 2 ton, 3 ton, 3.5 ton, 4 ton",
  capacity: "1 Ton, 2 Ton, 3 Ton, 3.5 Ton, 4 Ton",
  height: "Na kontaktoni për specifikat",
  battery: "Na kontaktoni për specifikat",
- batteryFilter: "Other",
- drive: "Portable Electric Forklift listed",
+ batteryFilter: "Tjetër",
+ drive: "Pirunar elektrik portativ sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: supplierImages.he524,
-  description: "Model portable electric forklift nga katalogu i produkteve me kapacitete të listuara deri në 4 ton."
+  description: "Model elektrik portativ nga katalogu i produkteve, me kapacitete të listuara deri në 4 ton."
  },
  {
  slug: "new-electric-forklift-3t-6m",
- model: "New Electric Forklift 3 Ton",
+ model: "Pirunar elektrik 3 ton",
  manufacturer: "Furnitor",
- name: "New Electric Forklift 3 Ton for Sale Small Electric Forklift Reach 6 M",
+ name: "Pirunar elektrik 3 ton me ngritje deri në 6 m",
  capacity: "3 Ton",
- height: "6 m listed",
+ height: "6 m sipas katalogut",
  battery: "Na kontaktoni për specifikat",
- batteryFilter: "Other",
- drive: "Electric Forklift listed",
+ batteryFilter: "Tjetër",
+ drive: "Pirunar elektrik sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/Ha132769479944c8e8f01e1c86924dee2i/New-Electric-Forklift-3-Ton-for-Sale.jpg?hasNWGrade=1"],
-  description: "Pirunar elektrik 3 ton nga katalogu i produkteve, i listuar me reach/lifting height 6 m."
+  description: "Pirunar elektrik 3 ton nga katalogu i produkteve, me lartësi ngritjeje të listuar deri në 6 m."
  },
  {
  slug: "diesel-rough-terrain-3t-5t",
- model: "Diesel Rough Terrain Forklift",
+ model: "Pirunar diesel për terren të vështirë",
  manufacturer: "Furnitor",
- name: "Free Shipping diesel Forklift 3 Ton 3.5 Ton 4 Ton 5 Ton Rough Terrain Forklift",
+ name: "Pirunar diesel për terren të vështirë 3 ton, 3.5 ton, 4 ton, 5 ton",
  capacity: "3 Ton, 3.5 Ton, 4 Ton, 5 Ton",
  height: "Na kontaktoni për specifikat",
  battery: "Diesel",
- batteryFilter: "Other",
- drive: "Diesel forklift listed",
- tyres: "Rough Terrain listed",
+ batteryFilter: "Tjetër",
+ drive: "Pirunar diesel sipas katalogut",
+ tyres: "Terren i vështirë, sipas katalogut",
  images: ["https://s.alicdn.com/@sc04/kf/H1ec4d19e6ec941bf994e33f1a74a7ebbr/Free-Shipping-diesel-Forklift-3-Ton-3.jpg?hasNWGrade=1"],
-  description: "Model diesel rough terrain i shfaqur në katalogun e produkteve . Shënohet veçmas sepse nuk është pirunar elektrik."
+  description: "Model diesel për terren të vështirë, i shfaqur në katalogun e produkteve. Shënohet veçmas sepse nuk është pirunar elektrik."
  },
  {
  slug: "hydraulic-forklift-25t-4t",
- model: "Hydraulic Forklift Electric/Diesel",
+ model: "Pirunar hidraulik elektrik/diesel",
  manufacturer: "Furnitor",
- name: "Fast Delivery Hydraulic Forklift Electric Truck Diesel 3ton 3.5ton 4ton Load Capacity",
+ name: "Pirunar hidraulik elektrik/diesel 3 ton, 3.5 ton, 4 ton",
  capacity: "2.5 Ton, 3 Ton, 3.5 Ton, 4 Ton",
  height: "Na kontaktoni për specifikat",
- battery: "Electric / Diesel listed",
- batteryFilter: "Other",
- drive: "Electric Truck / Diesel listed",
+ battery: "Elektrik / Diesel sipas katalogut",
+ batteryFilter: "Tjetër",
+ drive: "Kamion elektrik / Diesel sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/H6e256bbae3934aecbf1aef86af868437C/Fast-Delivery-Hydraulic-Forklift-Electric-Truck-Diesel.jpg?hasNWGrade=1"],
-  description: "Hydraulic forklift i listuar me variante electric truck dhe diesel, me kapacitete 2.5T deri 4T sipas titullit të katalogut të produkteve."
+  description: "Pirunar hidraulik i listuar me variante elektrike dhe diesel, me kapacitete 2.5T deri 4T sipas katalogut të produkteve."
  },
  {
  slug: "warehouse-electric-1t-3t-5m",
- model: "Warehouse Mini Lithium Forklift",
+ model: "Mini pirunar lithium për magazina",
  manufacturer: "Furnitor",
- name: "Fast Delivery Warehouse Electric Forklift 1 Ton 2 Ton 3 Ton Mini Lithium Battery",
+ name: "Pirunar elektrik për magazina 1 ton, 2 ton, 3 ton me bateri lithium",
  capacity: "1 Ton, 2 Ton, 3 Ton",
- height: "3 m, 4 m, 5 m listed",
- battery: "Mini Lithium Battery",
+ height: "3 m, 4 m, 5 m sipas katalogut",
+ battery: "Mini Bateri lithium",
  batteryFilter: "Lithium",
- drive: "Electric Forklift listed",
+ drive: "Pirunar elektrik sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/H4de954bc5e8b4fa08a314dc0ab0c7831A/Fast-Delivery-Warehouse-Electric-Forklift-1-Ton.jpg?hasNWGrade=1"],
-  description: "Pirunar elektrik për warehouse, i listuar me kapacitete 1T-3T, mini lithium battery dhe lartësi 3 m, 4 m, 5 m."
+  description: "Pirunar elektrik për magazina, i listuar me kapacitete 1T-3T, bateri lithium dhe lartësi 3 m, 4 m, 5 m."
  },
  {
  slug: "60v-small-electric-2t-5t",
- model: "Factory 60V Small Electric Forklift",
+ model: "Pirunar i vogël elektrik 60V",
  manufacturer: "Furnitor",
- name: "Fast Delivery 60V 3 Tons 5 Tons 2 Ton Small Electric Forklift Truck",
+ name: "Pirunar i vogël elektrik 60V 2 ton, 3 ton, 5 ton",
  capacity: "2 Ton, 3 Ton, 5 Ton",
  height: "Na kontaktoni për specifikat",
- battery: "60V Battery Forklift",
- batteryFilter: "Other",
- drive: "Electric Forklift listed",
+ battery: "Bateri 60V",
+ batteryFilter: "Tjetër",
+ drive: "Pirunar elektrik sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/Heaa3e337eaa344f8aee740044d1f9130W.jpg_220x220.jpg"],
-  description: "Small electric forklift truck me sistem 60V, i listuar me kapacitete 2T, 3T dhe 5T."
+  description: "Pirunar i vogël elektrik me sistem 60V, i listuar me kapacitete 2T, 3T dhe 5T."
  },
  {
  slug: "2000kg-electric-pallet-stackers",
- model: "2000kg Electric Forklift / Stacker",
+ model: "Stacker elektrik 2000 kg",
  manufacturer: "Furnitor",
- name: "2000kg Electric Forklifts Hydraulic Hand Pallet Jack and Electric Stackers",
+ name: "Stacker elektrik dhe pallet jack hidraulik 2000 kg",
  capacity: "2000 kg",
- height: "3 m, 4 m listed",
- battery: "Electric listed",
- batteryFilter: "Other",
- drive: "Electric stacker / pallet forklift listed",
+ height: "3 m, 4 m sipas katalogut",
+ battery: "Elektrik sipas katalogut",
+ batteryFilter: "Tjetër",
+ drive: "Stacker elektrik / pirunar për paleta sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/Hb7f3d6e15091495c9b531eb4bd2f55ef5/2000kg-Electric-Forklifts-Hydraulic-Hand-Pallet-Jack.jpg?hasNWGrade=1"],
-  description: "Pajisje elektrike për warehouse me hydraulic hand pallet jack dhe electric stackers, e listuar për 2000 kg dhe lartësi 3 m / 4 m."
+  description: "Pajisje elektrike për magazina, me pallet jack hidraulik dhe stacker elektrik, e listuar për 2000 kg dhe lartësi 3 m / 4 m."
  },
  {
  slug: "full-electric-stacker-1000kg-2000kg",
- model: "Full Electric Mini Stacker",
+ model: "Mini stacker plotësisht elektrik",
  manufacturer: "Furnitor",
- name: "Full Electric Stacker 1000kg 1500kg 2000kg",
+ name: "Stacker plotësisht elektrik 1000 kg, 1500 kg, 2000 kg",
  capacity: "1000 kg, 1500 kg, 2000 kg",
- height: "1.5 m, 2 m listed",
- battery: "Full Electric",
- batteryFilter: "Other",
- drive: "Mini Electric Stacker Forklift listed",
+ height: "1.5 m, 2 m sipas katalogut",
+ battery: "Plotësisht elektrik",
+ batteryFilter: "Tjetër",
+ drive: "Mini stacker elektrik sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/H144588ec5d7d474797ba4be7eda4a38dk/Free-Shipping-Factory-Full-Electric-Forklift-1000kg.jpg?hasNWGrade=1"],
-  description: "Full electric mini stacker/forklift i listuar me kapacitete 1000 kg, 1500 kg dhe 2000 kg."
+  description: "Mini stacker plotësisht elektrik i listuar me kapacitete 1000 kg, 1500 kg dhe 2000 kg."
  },
  {
  slug: "electric-pallet-stacker-self-loading",
- model: "Electric Pallet Stacker Self Loading",
+ model: "Stacker elektrik vetë-ngarkues për paleta",
  manufacturer: "Furnitor",
- name: "Fast Delivery Electric Pallet Stacker Self Loading Semi 1.5 Ton 2 Ton",
+ name: "Stacker elektrik për paleta, vetë-ngarkues, 1.5 ton dhe 2 ton",
  capacity: "1.5 Ton, 2 Ton",
  height: "Na kontaktoni për specifikat",
- battery: "Electric / Semi listed",
- batteryFilter: "Other",
- drive: "Walkie Portable Stacker Forklift listed",
+ battery: "Elektrik / gjysmë-elektrik sipas katalogut",
+ batteryFilter: "Tjetër",
+ drive: "Stacker portativ me ecje sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/H1874235dd5b74dcc80392975c06bc18ct/Fast-Delivery-Electric-Pallet-Stacker-Self-Loading.jpg?hasNWGrade=1"],
-  description: "Electric pallet stacker self loading, i listuar me kapacitete 1.5T dhe 2T dhe opsion roll clamp."
+  description: "Stacker elektrik vetë-ngarkues për paleta, i listuar me kapacitete 1.5T dhe 2T dhe opsion roll clamp."
  },
  {
  slug: "ce-walking-semi-electric-stacker",
- model: "CE Walking Semi-electric Stacker",
+ model: "Stacker gjysmë-elektrik portativ",
  manufacturer: "Furnitor",
- name: "Fast Delivery CE Fully 1.5ton 2ton Walking Semi-electric Portable Stacker",
+ name: "Stacker portativ gjysmë-elektrik 1.5 ton dhe 2 ton",
  capacity: "1.5 Ton, 2 Ton",
  height: "Na kontaktoni për specifikat",
- battery: "Semi-electric listed",
- batteryFilter: "Other",
- drive: "Walking portable stacker listed",
+ battery: "Gjysmë-elektrik sipas katalogut",
+ batteryFilter: "Tjetër",
+ drive: "Stacker portativ me ecje sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/Hed8ed0ada13544108bced56299776d83c/Fast-Delivery-CE-Fully-1-5ton-2ton.jpg?hasNWGrade=1"],
-  description: "Walking semi-electric portable self-elevating pallet stacker me kapacitete 1.5T dhe 2T sipas katalogut të produkteve."
+  description: "Stacker portativ gjysmë-elektrik me ecje, i listuar me kapacitete 1.5T dhe 2T sipas katalogut të produkteve."
  },
  {
  slug: "full-electric-self-loading-stacker",
- model: "Full Electric Self Loading Stacker",
+ model: "Stacker plotësisht elektrik vetë-ngarkues",
  manufacturer: "Furnitor",
- name: "Free Shipping Full Electric Stacker 1000kg 1500kg Self-Lifting Pallet Loader",
+ name: "Stacker plotësisht elektrik vetë-ngritës 1000 kg dhe 1500 kg",
  capacity: "1000 kg, 1500 kg",
  height: "Na kontaktoni për specifikat",
- battery: "Full Electric",
- batteryFilter: "Other",
- drive: "Self-lifting pallet loader listed",
+ battery: "Plotësisht elektrik",
+ batteryFilter: "Tjetër",
+ drive: "Ngarkues paletash vetë-ngritës sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/H91d6144bef034dac9ed575e21666ba83j/Free-Shipping-Full-Electric-Stacker-1000kg-1500kg.jpg?hasNWGrade=1"],
-  description: "Full electric self-loading stacker dhe pallet loader i listuar me kapacitete 1000 kg dhe 1500 kg."
+  description: "Stacker plotësisht elektrik vetë-ngarkues për paleta, i listuar me kapacitete 1000 kg dhe 1500 kg."
  },
  {
  slug: "electric-reach-stacker-12t-2t",
- model: "Electric Reach Stacker",
+ model: "Reach stacker elektrik",
  manufacturer: "Furnitor",
- name: "1.2 Ton Electric Stacker Electric Reach Stacker 2 Ton 2000 kg",
+ name: "Stacker elektrik/reach stacker 1.2 ton, 2 ton, 2000 kg",
  capacity: "1.2 Ton, 1.5 Ton, 2 Ton, 2000 kg",
  height: "Na kontaktoni për specifikat",
- battery: "Electric Stacker",
- batteryFilter: "Other",
- drive: "Electric reach stacker listed",
+ battery: "Stacker elektrik",
+ batteryFilter: "Tjetër",
+ drive: "Reach stacker elektrik sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/H73ac1e6114af4fd7ade8eeaaadc92921O/1-2-Ton-Electric-Stacker-Electric-Reach.jpg?hasNWGrade=1"],
-  description: "Electric stacker/reach stacker i listuar me kapacitete 1.2T, 1.5T dhe 2T."
+  description: "Stacker elektrik/reach stacker i listuar me kapacitete 1.2T, 1.5T dhe 2T."
  },
  {
  slug: "mini-self-loading-electric-stacker",
- model: "Mini Self Loading Electric Stacker",
+ model: "Mini stacker elektrik vetë-ngarkues",
  manufacturer: "Furnitor",
- name: "High Quality 1.5 Ton 1.6 Ton 2 Ton Mini Small Self Loading Portable Forklift",
+ name: "Mini stacker portativ vetë-ngarkues 1.5 ton, 1.6 ton, 2 ton",
  capacity: "1.5 Ton, 1.6 Ton, 2 Ton",
  height: "Na kontaktoni për specifikat",
- battery: "Electric Stacker",
- batteryFilter: "Other",
- drive: "Portable forklift / electric stacker listed",
+ battery: "Stacker elektrik",
+ batteryFilter: "Tjetër",
+ drive: "Pirunar portativ / stacker elektrik sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/H91f5657f6288499cbc1783d2dbf3c8b4Y/High-Quality-1-5-Ton-1-6.jpg?hasNWGrade=1"],
-  description: "Mini small self-loading portable forklift/electric stacker me kapacitete 1.5T, 1.6T dhe 2T."
+  description: "Mini stacker portativ vetë-ngarkues me kapacitete 1.5T, 1.6T dhe 2T."
  },
  {
  slug: "semi-pallet-reach-forklift",
- model: "Semi Pallet Reach Forklift",
+ model: "Reach forklift gjysmë-elektrik për paleta",
  manufacturer: "Furnitor",
- name: "Free Shipping Semi Pallet Reach Forklift Battery Power 1.6m, 3m",
+ name: "Reach forklift për paleta me bateri, 1.6 m dhe 3 m",
  capacity: "Na kontaktoni për specifikat",
- height: "1.6 m, 3 m listed",
- battery: "Battery Power",
- batteryFilter: "Other",
- drive: "Semi Electric Stacker listed",
+ height: "1.6 m, 3 m sipas katalogut",
+ battery: "Me bateri",
+ batteryFilter: "Tjetër",
+ drive: "Stacker gjysmë-elektrik sipas katalogut",
  tyres: "Na kontaktoni për specifikat",
  images: ["https://s.alicdn.com/@sc04/kf/Hbaa9a215cbfc45938e7af299cfd7d6a2a/Free-Shipping-Semi-Pallet-Reach-Forklift-Battery.jpg?hasNWGrade=1"],
-  description: "Semi pallet reach forklift me battery power, i listuar me lartësi 1.6 m dhe 3 m."
+  description: "Reach forklift gjysmë-elektrik për paleta, me bateri dhe lartësi të listuar 1.6 m dhe 3 m."
  }
 ];
-
-const translations = {
- en: {
- "nav.products": "Electric Forklifts", "nav.models": "Models", "nav.why": "Why Us", "nav.about": "About", "nav.faq": "FAQ", "nav.contact": "Contact",
- "cta.quote": "Request a Quote", "cta.models": "View Models", "hero.eyebrow": "Product catalog", "hero.title": "Electric Forklifts for Businesses in Kosovo",
- "hero.subtitle": "Modern electric forklift models available for businesses in Kosovo.",
- "trust.direct": "Product catalog", "trust.capacity": "1T - 5T capacities listed", "trust.battery": "Lithium-Ion Battery", "trust.business": "Warehouse material handling",
- "products.eyebrow": "Supplier catalog", "products.title": "Real forklift models", "products.copy": "Product names, photos and visible specifications are based on the verified verified product catalog references. Missing fields are marked as contact us for specifications.",
- "why.eyebrow": "Transparent sourcing", "why.title": "Why buy through E-Fork Kosovo?", "why.direct.title": "Organized supply", "why.direct.copy": "We work with specialized material-handling equipment manufacturers.", "why.price.title": "Real models", "why.price.copy": "Selection from the product catalog.", "why.range.title": "Clear specifications", "why.range.copy": "Each model is presented with supplier technical data where available.", "why.support.title": "Offer by need", "why.support.copy": "Tell us the capacity and use case and we propose a suitable model.", "why.parts.title": "Purchase support", "why.parts.copy": "Support through model selection and ordering process.", "why.custom.title": "Custom configurations", "why.custom.copy": "Configurations are checked with the supplier according to your operation.",
- "process.eyebrow": "How ordering works", "process.title": "From model selection to delivery in Kosovo", "process.s1": "Choose the model", "process.s1c": "We review capacity, lift height and working environment.", "process.s2": "Request a quote", "process.s2c": "You send the inquiry and required configuration.", "process.s3": "Confirm specifications", "process.s3c": "We confirm the supplier data and selected configuration.", "process.s4": "Coordinate order and transport", "process.s4c": "Order, transport and delivery in Kosovo are coordinated by agreement.",
- "apps.eyebrow": "Applications", "apps.title": "For environments where efficiency and control matter", "electric.eyebrow": "Electric technology", "electric.title": "Why electric forklifts?", "electric.copy": "The supplier lists electric forklifts for warehouse and material-handling use, with Lithium-Ion Battery available on the EF-CPD40 listing.", "compare.factor": "Factor",
- "about.eyebrow": "About Us", "about.title": "Kosovo-based supplier for electric material-handling equipment", "about.copy": "E-Fork Kosovo is focused on supplying businesses in Kosovo with electric forklifts and material-handling equipment. Through selected supply partners, we present selected models for warehouses, factories, logistics and different business needs.",
- "quote.eyebrow": "Quote request", "quote.title": "Contact us to receive an offer and full model specifications.", "quote.copy": "Submit your details and the team will prepare a suitable configuration for your required capacity, lift height and working environment.", "quote.submit": "Request Quote",
- "faq.title": "Frequently Asked Questions", "contact.eyebrow": "Contact", "contact.title": "Speak with us about the right model", "footer.copy": "Electric forklifts and material-handling solutions for businesses in Kosovo."
- }
-};
 
 const observer = new IntersectionObserver((entries) => entries.forEach((entry) => {
  if (entry.isIntersecting) entry.target.classList.add("is-visible");
@@ -341,10 +325,10 @@ function productImage(product) {
  const src = product.images?.[0];
  return src
  ? `<img src="${src}" alt="${product.name}" loading="lazy">`
- : `<div class="product-image-placeholder"><span>${product.model}</span><small>Foto zyrtare nga furnitori në pritje</small></div>`;
+ : `<div class="product-image-placeholder"><span>${product.model}</span><small>Foto zyrtare në katalog në pritje</small></div>`;
 }
 
-function renderProducts() {
+function renderProduktet() {
  if (!grid) return;
  const visible = products.filter((product) => {
  const capacityMatch = activeFilters.capacity === "all" || product.capacity.includes(capacityLabelToText(activeFilters.capacity));
@@ -358,7 +342,7 @@ function renderProducts() {
  <div class="product-body">
  <h3>${product.name}</h3>
  <p class="manufacturer">Katalog E-Fork Kosovo</p>
- <dl><div><dt>Capacity</dt><dd>${product.capacity}</dd></div><div><dt>Lifting height</dt><dd>${product.height}</dd></div><div><dt>Battery</dt><dd>${product.battery}</dd></div><div><dt>Drive</dt><dd>${product.drive}</dd></div></dl>
+ <dl><div><dt>Kapaciteti</dt><dd>${product.capacity}</dd></div><div><dt>Lartësia e ngritjes</dt><dd>${product.height}</dd></div><div><dt>Bateria</dt><dd>${product.battery}</dd></div><div><dt>Lëvizja</dt><dd>${product.drive}</dd></div></dl>
  <p>${product.description}</p>
  <div class="card-actions"><a class="btn btn-secondary" href="/products/${product.slug}.html">Shiko Detajet</a><a class="btn btn-primary" href="/?model=${encodeURIComponent(product.name)}#quote">Kërko Ofertë</a></div>
  </div>
@@ -383,13 +367,13 @@ function renderFilters() {
  activeFilters[button.dataset.type] = button.dataset.value;
  filterBar.querySelectorAll(`[data-type="${button.dataset.type}"]`).forEach((chip) => chip.classList.remove("is-active"));
  button.classList.add("is-active");
- renderProducts();
+ renderProduktet();
  });
 }
 
 if (grid) {
  renderFilters();
- renderProducts();
+ renderProduktet();
 }
 
 if (select) {
@@ -399,25 +383,15 @@ if (select) {
 }
 
 document.querySelector(".menu-btn")?.addEventListener("click", () => document.body.classList.toggle("menu-open"));
-document.querySelector(".lang-switch")?.addEventListener("click", () => {
- const next = document.documentElement.lang === "sq" ? "en" : "sq";
- document.documentElement.lang = next;
- document.querySelectorAll("[data-i18n]").forEach((element) => {
- if (next === "en" && translations.en[element.dataset.i18n]) element.textContent = translations.en[element.dataset.i18n];
- if (next === "sq") location.reload();
- });
-});
 document.querySelector(".quote-form")?.addEventListener("submit", (event) => {
  event.preventDefault();
  const form = event.currentTarget;
  const button = form.querySelector("button");
  const status = form.querySelector(".form-status");
  const formData = Object.fromEntries(new FormData(form).entries());
- const lang = document.documentElement.lang;
-
  button.disabled = true;
  status.className = "form-status";
- status.textContent = lang === "en" ? "Sending request..." : "Duke dërguar kërkesën...";
+ status.textContent = "Duke dërguar kërkesën...";
 
  fetch("/api/quotes", {
  method: "POST",
@@ -426,18 +400,14 @@ document.querySelector(".quote-form")?.addEventListener("submit", (event) => {
  })
  .then(async (response) => {
  const payload = await response.json().catch(() => ({}));
- if (!response.ok) throw new Error(payload.errors?.join(" ") || payload.error || "Request failed");
+ if (!response.ok) throw new Error(payload.errors?.join(" ") || payload.error || "Kërkesa dështoi");
  form.reset();
  status.classList.add("success");
- status.textContent = lang === "en"
- ? "Your request was received. We will contact you soon."
- : "Kërkesa u pranua me sukses. Do t'ju kontaktojmë së shpejti.";
+ status.textContent = "Kërkesa u pranua me sukses. Do t\'ju kontaktojmë së shpejti.";
  })
  .catch((error) => {
  status.classList.add("error");
- status.textContent = error.message || (lang === "en"
- ? "Something went wrong. Please contact us by phone or WhatsApp."
- : "Diçka shkoi gabim. Ju lutemi na kontaktoni me telefon ose WhatsApp.");
+ status.textContent = error.message || "Diçka shkoi gabim. Ju lutemi na kontaktoni me telefon ose WhatsApp.";
  })
  .finally(() => {
  button.disabled = false;

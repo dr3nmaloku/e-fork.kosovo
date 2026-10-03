@@ -22,9 +22,6 @@ img { max-width: 100%; display: block; }
 .nav { display: flex; align-items: center; gap: 20px; margin-left: auto; font-size: 14px; color: rgba(255,255,255,.82); }
 .nav a:hover { color: var(--white); }
 .header-actions { display: flex; align-items: center; gap: 12px; }
-.lang-switch { display: inline-flex; gap: 4px; padding: 4px; border: 1px solid rgba(255,255,255,.22); border-radius: 999px; background: transparent; color: var(--white); cursor: pointer; }
-.lang-switch span { padding: 6px 8px; border-radius: 999px; font-size: 12px; }
-html[lang="sq"] [data-lang="sq"], html[lang="en"] [data-lang="en"] { background: var(--white); color: var(--navy); }
 .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border-radius: 6px; font-weight: 750; border: 1px solid transparent; transition: transform .18s ease, background .18s ease; }
 .btn:hover { transform: translateY(-1px); }
 .btn-primary { background: var(--green); color: #06120b; }
